@@ -1,0 +1,24 @@
+.headerBackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 440px;
+
+    background-color: #0B6D5D;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerTextContent {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 32px;
+
+    text-align: center;
+}
