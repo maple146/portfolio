@@ -23,14 +23,26 @@ const theme = createTheme({
             fontSize: '48px',
             fontWeight: '600',
         },
-        button: {
-            fontSize: '20px',
+        h3: {
+            fontSize: '48px',
+            fontWeight: '700',
+        },
+        h4: {
+            fontSize: '40px',
             fontWeight: '600',
+        },
+        p: {
+            fontSize: '24px',
+            fontWeight: '400',
             fontFamily: [
                 'Raleway',
                 'Arial',
                 'sans-serif',
             ].join(','),
+        },
+        button: {
+            fontSize: '20px',
+            fontWeight: '600',
         },
     }
 });

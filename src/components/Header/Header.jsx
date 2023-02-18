@@ -7,10 +7,10 @@ const Header = () => {
         <Box className={styles.headerBackground}>
             <Container className={styles.headerContainer}>
                 <Box className={styles.headerTextContent}>
-                    <Typography variant="h2" component="h2">
+                    <Typography variant="h2" component="h1">
                         Luciano Alcaraz
                     </Typography>
-                    <Typography variant="h1" component="h1">
+                    <Typography variant="h1" component="h2">
                         Desarrollador Front-end
                     </Typography>
                 </Box>

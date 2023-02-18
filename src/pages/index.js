@@ -20,8 +20,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;700&family=Raleway:wght@600&display=swap" rel="stylesheet" />       </Head>
-        <Grid container spacing={2}>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Raleway:wght@400&display=swap" rel="stylesheet" />
+      </Head>
+        <Grid container>
           <Grid item xs={12}>
             <Header />
           </Grid>
