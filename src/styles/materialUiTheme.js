@@ -31,8 +31,21 @@ const theme = createTheme({
             fontSize: '40px',
             fontWeight: '600',
         },
-        p: {
+        h5: {
+            fontSize: '32px',
+            fontWeight: '600',
+        },
+        body1: {
             fontSize: '24px',
+            fontWeight: '400',
+            fontFamily: [
+                'Raleway',
+                'Arial',
+                'sans-serif',
+            ].join(','),
+        },
+        body2: {
+            fontSize: '16px',
             fontWeight: '400',
             fontFamily: [
                 'Raleway',
