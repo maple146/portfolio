@@ -1,11 +1,16 @@
 import { Typography } from "@mui/material";
+import styles from './CustomParagraph.module.css'
 
-const CustomParagraph = ({ text }) => {
+const CustomParagraph = ({ text, component, variant, isProjectVariant }) => {
     return (
-        <Typography variant='p' component='p' mx={1} my={2}>
+        <Typography
+            component={component}
+            variant={variant}
+            className={ isProjectVariant ? styles.projectParagraph : styles.customParagraph}
+        >
             {text}
         </Typography>
     );
 }
- 
+
 export default CustomParagraph;
