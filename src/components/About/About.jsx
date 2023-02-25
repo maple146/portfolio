@@ -6,7 +6,7 @@ import styles from './About.module.css'
 const About = () => {
     return (
         <Box className={styles.about}>
-            <Container className={styles.aboutContainer}>
+            <Container>
                 <Grid
                     container
                     justifyContent='center'
