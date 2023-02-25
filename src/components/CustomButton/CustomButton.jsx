@@ -1,12 +1,12 @@
 import { Button } from "@mui/material";
 import styles from './CustomButton.module.css'
 
-const CustomButton = ({ text }) => {
+const CustomButton = ({ text, isProjectVariant }) => {
     return (
         <Button
-            variant="contained"
             disableElevation
-            className={styles.customButton}
+            variant="contained"
+            className={isProjectVariant ? styles.projectButton : styles.customButton}
         >
             {text}
         </Button>
