@@ -12,9 +12,14 @@ const config = {
   prefix: "",
   theme: {
     colors: {
-      cultured: '#F6F8F9',
       black: '#191919',
+      gray: '#6F6F6F',
       white: '#F6F6F6',
+      main: {
+        100: '#47D7AC',
+        500: '#2EBB90',
+        900: '#0B6D5D'
+      },
     },
     container: {
       center: true,
