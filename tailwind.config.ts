@@ -13,8 +13,8 @@ const config = {
   theme: {
     colors: {
       cultured: '#F6F8F9',
-      black: '#000000',
-      white: '#FFFFFF'
+      black: '#191919',
+      white: '#F6F6F6',
     },
     container: {
       center: true,

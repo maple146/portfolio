@@ -5,7 +5,7 @@ import Projects from "@/app/_home/projects";
 
 export default function Home() {
   return (
-    <main className="flex flex-col p-24">
+    <main className="container flex flex-col p-4 lg:p-24">
       <Header />
       <About />
       <Projects />
