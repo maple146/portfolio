@@ -3,16 +3,11 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="bg-main-900">
-      <div className="container flex flex-col items-center">
-        <p className="text-sm">Text SM</p>
-        <p className="text-base">Text BASE</p>
-        <p className="text-lg">Text LG</p>
-        <p className="text-xl">Text XL</p>
-        <p className="text-xl-2">Text XL-2</p>
-        <p className="text-xl-3">Text XL-3</p>
-        <p className="text-xl-4">Text XL-4</p>
-        <div className="flex gap-4">
+    <div className="bg-main-900 h-screen lg:h-[480px]">
+      <div className="container flex flex-col items-center justify-center h-full text-center">
+        <p className="text-xl lg:text-xl-4 mb-4 font-bold">Luciano Alcaraz</p>
+        <p className="text-lg lg:text-xl-3 mb-8 font-semibold">Desarrollador Front-end</p>
+        <div className="flex gap-4 flex-col lg:flex-row">
           <Link href="https://github.com/maple146">
             <Button>Github</Button>
           </Link>
