@@ -29,6 +29,15 @@ const config = {
       },
     },
     extend: {
+      fontSize: {
+        sm: ["14px", "20px"],
+        base: ["20px", "28px"],
+        lg: ["24px", "32px"],
+        xl: ["32px", "44px"],
+        "xl-2": ["40px", "54px"],
+        "xl-3": ["48px", "64px"],
+        "xl-4": ["56px", "76px"],
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans]
       },
