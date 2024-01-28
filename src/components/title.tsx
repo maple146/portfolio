@@ -7,7 +7,7 @@ const Title = ({ text, variant }: TitleTypes) => {
   // Refactorizar usando class-variance-authority
   if (variant === "fullWidth") {
     return (
-      <div className="border-b border-main-100 w-full mb-2">
+      <div className="border-b border-main-100 w-full mb-2 lg:mb-4">
         <p className="text-lg lg:text-xl-2 font-semibold">{text}</p>
       </div>
     );

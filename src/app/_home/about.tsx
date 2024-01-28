@@ -1,13 +1,12 @@
-import CustomLink from "@/components/custom-link";
 import Title from "@/components/title";
 
 export default function About() {
   return (
-    <div className="container grid grid-cols-2 py-8 gap-x-8">
-      <div className="col-start-1 col-end-3 flex justify-center pb-8">
+    <div className="container grid grid-cols-2 py-8 gap-4 lg:gap-8">
+      <div className="col-span-full flex justify-center mb-2 lg:mb-4">
         <Title text={"Sobre mi"} />
       </div>
-      <div className="col-span-full lg:col-start-1 lg:col-end-2 flex flex-col pb-4">
+      <div className="col-span-full lg:col-start-1 lg:col-end-2 flex flex-col">
         <Title text={"Quien soy?"} variant={"fullWidth"} />
         <p className="text-base lg:text-lg">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
@@ -18,7 +17,7 @@ export default function About() {
           aliquet. Quisque a risus nisl.
         </p>
       </div>
-      <div className="col-span-full lg:col-start-2 lg:col-end-3 flex flex-col pb-4">
+      <div className="col-span-full lg:col-start-2 lg:col-end-3 flex flex-col">
         <Title text={"A que me dedico?"} variant={"fullWidth"} />
         <p className="text-base lg:text-lg">
           Suspendisse leo ipsum, molestie id semper sed, tristique a metus.
@@ -30,7 +29,7 @@ export default function About() {
           Aenean venenatis purus quis pharetra venenatis. Aenean non porta quam.
         </p>
       </div>
-      <div className="col-span-full lg:col-start-1 lg:col-end-2 flex flex-col pb-4">
+      <div className="col-span-full lg:col-start-1 lg:col-end-2 flex flex-col">
         <Title text={"Que herramientas uso?"} variant={"fullWidth"} />
         <p className="text-base lg:text-lg">
           Donec quis dui odio. Nulla tellus lacus, pretium non arcu quis,
@@ -43,7 +42,7 @@ export default function About() {
           faucibus sem quis massa venenatis, gravida congue libero convallis.
         </p>
       </div>
-      <div className="col-span-full lg:col-start-2 lg:col-end-3 flex flex-col pb-4">
+      <div className="col-span-full lg:col-start-2 lg:col-end-3 flex flex-col">
         <Title text={"Certificaciones"} variant={"fullWidth"} />
         <p className="text-base lg:text-lg">
           Aliquam auctor ultricies porttitor. Suspendisse interdum cursus diam
