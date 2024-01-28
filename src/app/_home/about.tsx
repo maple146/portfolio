@@ -1,3 +1,4 @@
+import CustomLink from "@/components/custom-link";
 import Title from "@/components/title";
 
 export default function About() {
