@@ -13,12 +13,12 @@ const config = {
   theme: {
     colors: {
       black: '#191919',
-      gray: '#6F6F6F',
       white: '#F6F6F6',
       main: {
         100: '#47D7AC',
         500: '#2EBB90',
-        900: '#0B6D5D'
+        700: '#0B6D5D',
+        900: '#194d3d'
       },
     },
     container: {
