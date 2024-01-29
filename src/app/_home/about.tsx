@@ -1,3 +1,4 @@
+import CustomLink from "@/components/custom-link";
 import Title from "@/components/title";
 
 export default function About() {
@@ -8,50 +9,90 @@ export default function About() {
       </div>
       <div className="col-span-full lg:col-start-1 lg:col-end-2 flex flex-col">
         <Title text={"Quien soy?"} variant={"fullWidth"} />
+        <p className="text-base lg:text-lg mb-4">
+          Soy un programador autodidacta con más de 3 años de experiencia
+          creando sitios y aplicaciones web en React. Durante este tiempo, he
+          tenido la oportunidad de participar en el desarrollo de diversos
+          proyectos, como sitios institucionales, landing pages, e-commerce y
+          e-learning.
+        </p>
+
         <p className="text-base lg:text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-          luctus, ligula eget sagittis venenatis, sem nisl condimentum metus,
-          eget cursus sem tellus vel nisl. Suspendisse efficitur tempor libero
-          eu pharetra. Maecenas ullamcorper eros eros. Quisque mollis enim id
-          tellus laoreet ultrices. Phasellus blandit eget nisl tristique
-          aliquet. Quisque a risus nisl.
+          Me apasiona la creación de interfaces visualmente atractivas,
+          responsivas y que proporcionen una excelente experiencia de usuario.
         </p>
       </div>
       <div className="col-span-full lg:col-start-2 lg:col-end-3 flex flex-col">
-        <Title text={"A que me dedico?"} variant={"fullWidth"} />
-        <p className="text-base lg:text-lg">
-          Suspendisse leo ipsum, molestie id semper sed, tristique a metus.
-          Suspendisse mollis mi sed ipsum euismod condimentum. Suspendisse sit
-          amet fringilla mi. Donec sed lacinia quam. Curabitur elit erat,
-          feugiat eget mollis quis, sollicitudin id orci. Cras ac enim non felis
-          fringilla elementum. Nullam porta, tortor id sollicitudin tempor,
-          ligula leo ultrices tortor, vitae finibus ligula risus et justo.
-          Aenean venenatis purus quis pharetra venenatis. Aenean non porta quam.
+        <Title text={"Experiencia"} variant={"fullWidth"} />
+
+        {/* <p className="text-base lg:text-lg mb-4">
+          Actualmente, trabajo en EstoEs desde el 2021 como Desarrollador
+          Front-end.
         </p>
+
+        <p className="text-base lg:text-lg">Mis responsabilidades incluyen:</p> */}
+
+        <p className="text-base lg:text-lg mb-4">
+          Desde el 2021, formo parte del equipo de EstoEs como Desarrollador
+          Front-end, donde tengo las siguientes responsabilidades:
+        </p>
+        <ul className="list-disc list-inside text-sm leading-6 lg:text-base lg:leading-8">
+          <li>Analizar y estimar tiempos de entrega</li>
+          <li>Desarrollar y testear interfaces de usuario</li>
+          <li>Brindar mantenimiento a proyectos finalizados</li>
+          <li>Colaborar con los equipos de diseño y backend</li>
+          <li>Crear y gestionar tareas en Jira/Asana</li>
+          <li>Revisar y corregir Pull Requests</li>
+        </ul>
       </div>
       <div className="col-span-full lg:col-start-1 lg:col-end-2 flex flex-col">
         <Title text={"Que herramientas uso?"} variant={"fullWidth"} />
+        <p className="text-base lg:text-lg mb-2">
+          Mi stack tecnológico se compone de:
+        </p>
+        <ul className="mb-4 list-disc list-inside text-sm leading-6 lg:text-base lg:leading-8">
+          <li>HTML, CSS, Javascript</li>
+          <li>SASS, Bootstrap, Material-UI, TailwindCSS</li>
+          <li>React.js, Next.js, Typescript</li>
+        </ul>
         <p className="text-base lg:text-lg">
-          Donec quis dui odio. Nulla tellus lacus, pretium non arcu quis,
-          aliquet viverra turpis. Pellentesque ac leo interdum, interdum quam
-          eu, eleifend libero. Etiam rhoncus dolor nec arcu condimentum maximus.
-          Pellentesque faucibus sem quis massa venenatis, gravida congue libero
-          convallis. Proin interdum lacus nec nisi eleifend vulputate. Cras
-          tincidunt consequat diam vel vestibulum, consectetur adipiscing elit.
-          Etiam rhoncus dolor nec arcu condimentum maximus. Pellentesque
-          faucibus sem quis massa venenatis, gravida congue libero convallis.
+          Adicionalmente, estoy en proceso de aprender a utilizar Jest para
+          mejorar la calidad de mi código.
         </p>
       </div>
       <div className="col-span-full lg:col-start-2 lg:col-end-3 flex flex-col">
         <Title text={"Certificaciones"} variant={"fullWidth"} />
-        <p className="text-base lg:text-lg">
-          Aliquam auctor ultricies porttitor. Suspendisse interdum cursus diam
-          et facilisis. Pellentesque at quam in est gravida laoreet. Phasellus
-          sit amet ornare massa, ut scelerisque ex. Mauris posuere ut nisl eget
-          luctus. Sed rutrum malesuada velit ut congue. Nullam in felis ex.
-          Curabitur eros neque, venenatis nec velit sit amet, molestie malesuada
-          orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
+        <div className="flex flex-col gap-2">
+          {/* Refactorizar */}
+          <CustomLink
+            url={
+              "https://www.freecodecamp.org/certification/lga-dev/responsive-web-design"
+            }
+            text={"FreeCodeCamp - Responsive Web Design"}
+          />
+          <CustomLink
+            url={
+              "https://www.freecodecamp.org/certification/lga-dev/javascript-algorithms-and-data-structures"
+            }
+            text={"FreeCodeCamp - Algorithms and Data Structures"}
+          />
+          <CustomLink
+            url={
+              "https://www.freecodecamp.org/certification/lga-dev/front-end-libraries"
+            }
+            text={"FreeCodeCamp - Frontend Development Libraries"}
+          />
+          <CustomLink
+            url={
+              "https://drive.google.com/file/d/1Ye6URC3oWzy3rzMCE3eYVsNJ5hKeiiky/view"
+            }
+            text={"Alkemy Bootcamp - Certificado de finalización"}
+          />
+          <CustomLink
+            url={"http://efset.org/cert/uKizB6"}
+            text={"EFSET - Certificado de nivel de inglés"}
+          />
+        </div>
       </div>
     </div>
   );
