@@ -19,10 +19,18 @@ export default function Contact() {
         </div>
 
         <div className="flex gap-4 flex-col lg:flex-row">
-          <Link href="LGA-dev@hotmail.com">
+          <Link
+            href="mailto:LGA-dev@hotmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <Button>Email</Button>
           </Link>
-          <Link href="https://www.linkedin.com/in/lucianoalcaraz/">
+          <Link
+            href="https://www.linkedin.com/in/lucianoalcaraz/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <Button>Linkedin</Button>
           </Link>
         </div>

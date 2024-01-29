@@ -8,10 +8,10 @@ export default function Header() {
         <p className="text-xl lg:text-xl-4 mb-4 font-bold">Luciano Alcaraz</p>
         <p className="text-lg lg:text-xl-3 mb-8 font-semibold">Desarrollador Front-end</p>
         <div className="flex gap-4 flex-col lg:flex-row">
-          <Link href="https://github.com/maple146">
+          <Link rel="noopener noreferrer" target="_blank" href="https://github.com/maple146">
             <Button>Github</Button>
           </Link>
-          <Link href="https://www.linkedin.com/in/lucianoalcaraz/">
+          <Link rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/lucianoalcaraz/">
             <Button>Linkedin</Button>
           </Link>
         </div>
