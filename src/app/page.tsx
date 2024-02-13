@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex flex-col">
       <Header />
       <About />
-      <Projects {...PROJECTS_DATA.home}/>
+      <Projects {...PROJECTS_DATA.home} />
       <Contact />
     </main>
   );

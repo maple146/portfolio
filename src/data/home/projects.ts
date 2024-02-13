@@ -1,5 +1,6 @@
 export const PROJECTS_DATA = {
   home: {
+    sectionLink: '/proyectos',
     title: "Proyectos",
     projects: [
       {
@@ -35,6 +36,7 @@ export const PROJECTS_DATA = {
     ],
   },
   projects: {
+    sectionLink: null,
     title: "Proyectos",
     projects: [
       {

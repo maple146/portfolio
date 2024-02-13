@@ -9,6 +9,7 @@ interface ProjectTypes {
 }
 
 export interface ProjectsTypes {
+  sectionLink: null | string;
   title: string;
   projects: ProjectTypes[];
 }

@@ -4,7 +4,11 @@ import { ProjectsTypes } from "@/types/projects.types";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-export default function Projects({ title, projects }: ProjectsTypes) {
+export default function Projects({
+  title,
+  projects,
+  sectionLink,
+}: ProjectsTypes) {
   return (
     <div className="flex flex-col container py-8 lg:py-12 gap-4 lg:gap-12">
       <div className="flex justify-center">
@@ -24,11 +28,13 @@ export default function Projects({ title, projects }: ProjectsTypes) {
           />
         ))}
       </div>
-      <div className="flex justify-center">
-        <Link href={"/proyectos"}>
-          <Button>Ver más proyectos</Button>
-        </Link>
-      </div>
+      {sectionLink && (
+        <div className="flex justify-center">
+          <Link href={sectionLink}>
+            <Button>Ver más proyectos</Button>
+          </Link>
+        </div>
+      )}
     </div>
   );
 }
