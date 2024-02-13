@@ -1,8 +1,8 @@
 import Card from "@/components/card";
 import Title from "@/components/title";
 import { ProjectsTypes } from "@/types/projects.types";
-// import Link from "next/link";
-// import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function Projects({ title, projects }: ProjectsTypes) {
   return (
@@ -24,11 +24,11 @@ export default function Projects({ title, projects }: ProjectsTypes) {
           />
         ))}
       </div>
-      {/* <div className="flex justify-center">
-        <Link href={'/proyectos'}>
+      <div className="flex justify-center">
+        <Link href={"/proyectos"}>
           <Button>Ver más proyectos</Button>
         </Link>
-      </div> */}
+      </div>
     </div>
   );
 }
