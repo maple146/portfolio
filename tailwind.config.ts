@@ -30,7 +30,8 @@ const config = {
     },
     extend: {
       fontSize: {
-        sm: ["16px", "20px"],
+        xs: ["16px", "20px"],
+        sm: ["18px", "24px"],
         base: ["20px", "28px"],
         lg: ["24px", "32px"],
         xl: ["32px", "44px"],
