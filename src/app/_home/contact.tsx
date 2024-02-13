@@ -12,8 +12,9 @@ export default function Contact() {
         <div className="my-4 lg:my-8 max-w-[700px]">
           <Alert>
             <AlertDescription>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque dui lectus, consectetur nec elementum eget.
+              Si crees que encajaría bien en tu equipo o si deseas discutir
+              algún proyecto en particular, no dudes en enviarme un correo o un
+              mensaje en LinkedIn.
             </AlertDescription>
           </Alert>
         </div>
