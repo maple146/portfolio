@@ -27,13 +27,6 @@ export default function Projects({
           />
         ))}
       </div>
-      {sectionLink && (
-        <div className="flex justify-center">
-          <Link href={sectionLink}>
-            <Button>Ver más proyectos</Button>
-          </Link>
-        </div>
-      )}
     </div>
   );
 }
