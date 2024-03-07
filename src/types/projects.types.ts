@@ -5,7 +5,6 @@ interface ProjectTypes {
   subtitle: string;
   description: string;
   externalUrl: string;
-  internalUrl: string;
 }
 
 export interface ProjectsTypes {

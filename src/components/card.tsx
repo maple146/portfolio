@@ -9,7 +9,6 @@ export interface CardTypes {
   subtitle: string;
   description: string;
   externalUrl: string;
-  internalUrl: string;
 }
 
 const Card = ({
@@ -19,7 +18,7 @@ const Card = ({
   subtitle,
   description,
   externalUrl,
-}: // internalUrl,
+}:
 CardTypes) => {
   return (
     <div className="bg-main-700 rounded-lg shadow overflow-hidden">
@@ -37,9 +36,6 @@ CardTypes) => {
           <Link href={externalUrl} rel="noopener noreferrer" target="_blank">
             <Button>Ver sitio</Button>
           </Link>
-          {/* <Link href={internalUrl} >
-            <Button >Ver más info</Button>
-          </Link> */}
         </div>
       </div>
     </div>

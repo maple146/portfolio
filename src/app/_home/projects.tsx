@@ -24,7 +24,6 @@ export default function Projects({
             image={project.image}
             imageAlt={project.imageAlt}
             externalUrl={project.externalUrl}
-            internalUrl={project.internalUrl}
           />
         ))}
       </div>

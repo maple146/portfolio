@@ -11,7 +11,6 @@ export const PROJECTS_DATA = {
         image: "/institucional.png",
         imageAlt: "Screenshot de la pagina Telecom Institucional",
         externalUrl: "https://institucional.telecom.com.ar",
-        // internalUrl: "/proyectos/telecom-institucional",
       },
       {
         title: "Vieníssima",
@@ -21,7 +20,6 @@ export const PROJECTS_DATA = {
         image: "/vienissima.png",
         imageAlt: "Screenshot de la pagina Vieníssima",
         externalUrl: "https://www.vienissima.ar/",
-        // internalUrl: "/proyectos/vienissima",
       },
       {
         title: "DAP Latam",
@@ -31,7 +29,6 @@ export const PROJECTS_DATA = {
         image: "/daplatam.png",
         imageAlt: "Screenshot de la pagina DAP Latam",
         externalUrl: "https://dap-latam.com/",
-        // internalUrl: "/proyectos/",
       },
       {
         title: "Mas mecanico",
@@ -41,7 +38,6 @@ export const PROJECTS_DATA = {
         image: "/masmecanico.png",
         imageAlt: "Screenshot de la pagina Mas Mecanico",
         externalUrl: "https://masmecanico.com.mx/",
-        // internalUrl: "/proyectos/",
       },
       {
         title: "Alleata",
@@ -51,7 +47,6 @@ export const PROJECTS_DATA = {
         image: "/alleata.png",
         imageAlt: "Screenshot de la pagina Alleata",
         externalUrl: "https://alleata.estoes.dev/home",
-        // internalUrl: "/proyectos/",
       },
       {
         title: "Personal",
@@ -61,7 +56,6 @@ export const PROJECTS_DATA = {
         image: "/paginaspersonal.png",
         imageAlt: "Screenshot de las paginas de Personal",
         externalUrl: "",
-        // internalUrl: "/proyectos/",
       },
     ],
   },
