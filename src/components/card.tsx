@@ -22,7 +22,7 @@ const Card = ({
 CardTypes) => {
   return (
     // Agregar 'shadow' cuando se implemente el light mode
-    <div className="bg-main-700 rounded-lg overflow-hidden h-full flex flex-col">
+    <div className="bg-main-700 rounded-lg overflow-hidden h-full flex flex-col max-w-[396px] justify-self-center">
       <div className="relative min-h-[200px] w-full">
         <Image fill src={image} alt={imageAlt} className="object-cover object-top"/>
       </div>

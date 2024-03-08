@@ -14,7 +14,7 @@ export default function Projects({
       <div className="flex justify-center">
         <Title text={title} />
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 grid-rows-auto gap-4 lg:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-rows-auto gap-4 lg:gap-8">
         {projects.map((project) => (
           <Card
             key={project.title}
