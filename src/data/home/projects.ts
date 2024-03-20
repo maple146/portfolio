@@ -52,7 +52,33 @@ export const PROJECTS_DATA = {
         title: "Personal",
         subtitle: "Landings de servicios de Personal",
         description:
-          "Colaboré con el equipo de Conexión Afuera en Telecom durante 8 meses, centrándonos en la migración de varias landings a Next.js. Durante este tiempo, no solo actualizamos la tecnología, sino que también renovamos el diseño y el estilo de dichas páginas.",
+          "Trabajé con el equipo de Conexión Afuera en Telecom durante 8 meses, centrándonos en la migración a Next.js y renovación del diseño de las siguientes landings:",
+        linksArray: [
+          {
+            text: 'Flow Pass',
+            url: 'https://www.personal.com.ar/flow-pass'
+          },
+          {
+            text: 'Planes',
+            url: 'https://www.personal.com.ar/planes-internet-movil'
+          },
+          {
+            text: 'Portabilidad',
+            url: 'https://www.personal.com.ar/portabilidad'
+          },
+          {
+            text: 'Prepago',
+            url: 'https://www.personal.com.ar/prepago'
+          },
+          {
+            text: 'Wifi Pass',
+            url: 'https://www.personal.com.ar/wifi-pass'
+          },
+          {
+            text: 'Ofertas',
+            url: 'https://www.personal.com.ar/ofertas'
+          },
+        ],
         image: "/paginaspersonal.png",
         imageAlt: "Screenshot de las paginas de Personal",
         externalUrl: "",

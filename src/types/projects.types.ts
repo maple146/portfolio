@@ -1,4 +1,5 @@
 interface ProjectTypes {
+  linksArray?: any;
   image: string;
   imageAlt: string;
   title: string;
