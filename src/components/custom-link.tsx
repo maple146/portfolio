@@ -25,7 +25,7 @@ const LinkVariants: LinkVariantsFunction = cva(
         sm:
           "text-sm",
         default:
-          "text-base lg:text-lg bg-main-500",
+          "text-base lg:text-lg",
       },
     },
 
@@ -44,7 +44,7 @@ export default function CustomLink({
 }: LinkProps): JSX.Element {
   return (
     <Link href={url} rel="noopener noreferrer" target="_blank" className={`${LinkVariants({ fontSize })} ${customClassNames}`} {...props}>
-      <ExternalLinkIcon />
+      <ExternalLinkIcon size={fontSize === 'sm' ? (16) : (20)} />
       <p
         className={`ml-2`}
       >
