@@ -1,23 +1,55 @@
 import { ExternalLinkIcon } from "lucide-react";
 import Link from "next/link";
+import { cva } from "class-variance-authority";
 
-export interface CustomLinkTypes {
-  url: string;
-  text: string;
-  size: string;
+type fontSize = "sm" | "default";
+
+type LinkVariantsProps = {
+  fontSize?: fontSize;
 }
 
-const CustomLink = ({ url, text, size }: CustomLinkTypes) => {
+type LinkProps = LinkVariantsProps & {
+  url: string;
+  text: string;
+  customClassNames?: string;
+  [key: string]: any;
+}
+
+type LinkVariantsFunction = (props: LinkVariantsProps) => string;
+
+const LinkVariants: LinkVariantsFunction = cva(
+  "text-main-100 flex items-center hover:underline",
+  {
+    variants: {
+      fontSize: {
+        sm:
+          "text-sm",
+        default:
+          "text-base lg:text-lg bg-main-500",
+      },
+    },
+
+    defaultVariants: {
+      fontSize: "default",
+    },
+  }
+);
+
+export default function CustomLink({
+  url,
+  text,
+  fontSize,
+  customClassNames = "",
+  ...props
+}: LinkProps): JSX.Element {
   return (
-    <Link href={url} rel="noopener noreferrer" target="_blank" className="text-main-100 flex items-center hover:underline">
+    <Link href={url} rel="noopener noreferrer" target="_blank" className={`${LinkVariants({ fontSize })} ${customClassNames}`} {...props}>
       <ExternalLinkIcon />
       <p
-        className={`${size === "sm" ? "text-sm" : "text-base lg:text-lg"} ml-2`}
+        className={`ml-2`}
       >
         {text}
       </p>
     </Link>
-  );
-};
-
-export default CustomLink;
+  )
+}

@@ -47,12 +47,13 @@ const Card = ({
             linksArray && (
               <div className="mt-2">
                 <ul className="list-disc list-inside">
-                  {linksArray?.map((link, index) => (
+                  {/* Quitar el any mas adelante */}
+                  {linksArray?.map((link: any) => (
                     <CustomLink
                       key={link.text}
                       url={link.url}
                       text={link.text}
-                      size="sm"
+                      fontSize="sm"
                     />
                   ))}
                 </ul>
