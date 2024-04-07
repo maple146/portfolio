@@ -1,6 +1,5 @@
 export const PROJECTS_DATA = {
   home: {
-    sectionLink: "/proyectos",
     title: "Proyectos",
     projects: [
       {
