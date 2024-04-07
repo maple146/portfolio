@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 export default function Header() {
   return (
@@ -8,12 +7,8 @@ export default function Header() {
         <p className="text-xl lg:text-xl-4 mb-4 font-bold">Luciano Alcaraz</p>
         <p className="text-lg lg:text-xl-3 mb-8 font-semibold">Desarrollador Front-end</p>
         <div className="flex gap-4 flex-col lg:flex-row">
-          <Link rel="noopener noreferrer" target="_blank" href="https://github.com/maple146">
-            <Button>Github</Button>
-          </Link>
-          <Link rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/lucianoalcaraz/">
-            <Button>Linkedin</Button>
-          </Link>
+          <Button href="https://github.com/maple146">Github</Button>
+          <Button href="https://www.linkedin.com/in/lucianoalcaraz/">Linkedin</Button>
         </div>
       </div>
     </div>

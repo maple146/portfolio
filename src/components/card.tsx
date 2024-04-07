@@ -1,8 +1,5 @@
-// 'use client'
-
-import Link from "next/link";
-import { Button } from "./ui/button";
 import Image from "next/image";
+import { Button } from "./ui/button";
 import CustomLink from "./custom-link";
 
 export interface CardTypes {
@@ -63,9 +60,11 @@ const Card = ({
         </div>
         {externalUrl && (
           <div className="flex gap-4 mt-4">
-            <Link href={externalUrl} rel="noopener noreferrer" target="_blank">
-              <Button>Ver sitio</Button>
-            </Link>
+            <Button
+              href={externalUrl}
+            >
+              Ver sitio
+            </Button>
           </div>
         )}
       </div>

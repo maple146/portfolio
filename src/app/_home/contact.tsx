@@ -1,6 +1,5 @@
 import Title from "@/components/title";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 
 export default function Contact() {
@@ -20,20 +19,8 @@ export default function Contact() {
         </div>
 
         <div className="flex gap-4 flex-col lg:flex-row">
-          <Link
-            href="mailto:LGA-dev@hotmail.com"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <Button>Email</Button>
-          </Link>
-          <Link
-            href="https://www.linkedin.com/in/lucianoalcaraz/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <Button>Linkedin</Button>
-          </Link>
+          <Button href="mailto:LGA-dev@hotmail.com">Email</Button>
+          <Button href="https://www.linkedin.com/in/lucianoalcaraz/">Linkedin</Button>
         </div>
       </div>
     </div>
