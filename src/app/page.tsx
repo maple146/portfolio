@@ -5,6 +5,7 @@ import Projects from "@/app/_home/projects";
 import { HEADER_DATA } from "@/data/home/header";
 import { ABOUT_DATA } from "@/data/home/about";
 import { PROJECTS_DATA } from "@/data/home/projects";
+import { CONTACT_DATA } from "@/data/home/contact";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <Header {...HEADER_DATA.home} />
       <About {...ABOUT_DATA.home} />
       <Projects {...PROJECTS_DATA.home} />
-      <Contact />
+      <Contact {...CONTACT_DATA.home} />
     </main>
   );
 }
