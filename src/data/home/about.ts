@@ -66,36 +66,6 @@ export const ABOUT_DATA = {
             ]
           },
         ]
-      },
-      {
-        title: 'Certificaciones',
-        paragraphs: [
-          {
-            links: [
-              {
-                text: 'FreeCodeCamp - Responsive Web Design',
-                externalUrl: 'https://www.freecodecamp.org/certification/lga-dev/responsive-web-design'
-              },
-              {
-                text: 'FreeCodeCamp - Algorithms and Data Structures',
-                externalUrl: 'https://www.freecodecamp.org/certification/lga-dev/javascript-algorithms-and-data-structures'
-              },
-              {
-                text: 'FreeCodeCamp - Frontend Development Libraries',
-                externalUrl: 'https://www.freecodecamp.org/certification/lga-dev/front-end-libraries'
-              },
-              {
-                text: 'Alkemy Bootcamp - Certificado de finalización',
-                externalUrl: 'https://drive.google.com/file/d/1Ye6URC3oWzy3rzMCE3eYVsNJ5hKeiiky/view'
-              },
-              {
-                text: 'EFSET - Certificado de nivel de inglés',
-                externalUrl: 'http://efset.org/cert/uKizB6'
-              },
-
-            ]
-          },
-        ]
       }
     ],
   },

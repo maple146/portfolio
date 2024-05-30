@@ -5,7 +5,7 @@ import { ContactTypes } from "@/types/contact.types";
 
 export default function Contact({ title, text, buttons }: ContactTypes) {
   return (
-    <div className="bg-main-900 h-screen lg:h-[480px]">
+    <div className="h-screen lg:h-[480px]">
       <div className="container flex flex-col items-center justify-center h-full text-center">
         <Title text={title} />
         <div className="my-4 lg:my-8 max-w-[700px]">

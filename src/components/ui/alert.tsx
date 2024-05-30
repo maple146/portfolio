@@ -5,11 +5,11 @@ import { cn } from "@/lib/utils";
 // [&>svg~*]:pl-7 [&>svg+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:text-slate-950 dark:border-slate-800 dark:[&>svg]:text-slate-50
 
 const alertVariants = cva(
-  "relative w-full rounded-lg border border-main-500 p-4 lg:px-12 lg:py-8",
+  "relative w-full rounded-lg border border-white p-4 lg:px-12 lg:py-8",
   {
     variants: {
       variant: {
-        default: "bg-main-700 text-white",
+        default: "bg-black text-white",
       },
     },
     defaultVariants: {

@@ -25,7 +25,7 @@ const Card = ({
 
   return (
     // Agregar 'shadow' cuando se implemente el light mode
-    <div className="bg-main-700 rounded-lg overflow-hidden h-full flex flex-col max-w-[396px] justify-self-center">
+    <div className="rounded-lg overflow-hidden h-full flex flex-col max-w-[396px] justify-self-center border-b border-white">
       <div className="relative min-h-[200px] w-full">
         <Image
           fill
@@ -34,7 +34,7 @@ const Card = ({
           className="object-cover object-top"
         />
       </div>
-      <div className="p-4 flex flex-col justify-between h-full">
+      <div className="p-4 flex flex-col justify-between h-full border-l border-r border-white">
         <div className="">
           <h5 className="text-lg font-bold text-white">{title}</h5>
           <h6 className="text-sm font-bold text-white">{subtitle}</h6>
