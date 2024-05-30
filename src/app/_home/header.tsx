@@ -3,7 +3,7 @@ import { HeaderTypes } from "@/types/header.types";
 
 export default function Header({ title, subtitle, buttons }: HeaderTypes) {
   return (
-    <div className="bg-main-900 h-screen lg:h-auto py-16">
+    <div className="bg-main-900 h-screen lg:h-auto pb-16 pt-[128px]">
       <div className="container flex flex-col items-center justify-center h-full text-center">
         <p className="text-xl lg:text-xl-4 mb-4 font-bold">{title}</p>
         <p className="text-lg lg:text-xl-3 mb-8 font-semibold">{subtitle}</p>
