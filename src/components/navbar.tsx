@@ -13,7 +13,7 @@ export default function Navbar() {
 	return (
 		<nav className="fixed w-full h-16 z-10">
 			<div className="container h-full flex justify-end items-center border-b border-gray-200 bg-black">
-				<div className="flex justify-center w-32">
+				{/* <div className="flex justify-center w-32">
 					<div className="flex items-center justify-center space-x-1">
 						<MoonIcon className="w-8 h-5" />
 						<Switch
@@ -22,7 +22,7 @@ export default function Navbar() {
 						/>
 						<SunIcon className="w-8 h-5" />
 					</div>
-				</div>
+				</div> */}
 				<div className="flex justify-center w-32">
 					<div className="flex items-center justify-center space-x-2">
 						<div className="w-8">
