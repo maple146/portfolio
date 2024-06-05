@@ -8,10 +8,10 @@ export default function Projects({
 }: ProjectsTypes) {
   return (
     <div className="flex flex-col container py-8 lg:py-12 gap-4 lg:gap-12">
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-2 lg:mb-4">
         <Title text={title} />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-rows-auto gap-4 lg:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-auto gap-4 md:gap-8">
         {projects.map((project) => (
           <Card
             // Pasarle solo props y destructurar adentro

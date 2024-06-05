@@ -5,7 +5,7 @@ import { AboutTypes } from "@/types/about.types";
 export default function About({ title, sections }: AboutTypes) {
   return (
     <div className="container grid grid-cols-1 py-8 lg:py-12 gap-4 lg:gap-12">
-      <div className="col-span-full flex justify-center mb-2 lg:mb-4">
+      <div className="flex justify-center mb-2 lg:mb-4">
         <Title text={title} />
       </div>
       {
