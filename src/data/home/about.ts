@@ -6,10 +6,7 @@ export const ABOUT_DATA = {
         title: 'Quien soy?',
         paragraphs: [
           {
-            text: "Soy un programador autodidacta con más de 3 años de experiencia creando sitios y aplicaciones web en React. Durante este tiempo, he tenido la oportunidad de participar en el desarrollo de diversos proyectos, como sitios de e-commerce, e-learning, institucionales y landing pages."
-          },
-          {
-            text: "Me apasiona la creación de interfaces que sean visualmente atractivas, responsivas y que brinden una excelente experiencia de usuario."
+            text: "Soy un programador autodidacta con más de 3 años de experiencia creando sitios y aplicaciones web en React. Durante este tiempo, participé en el desarrollo de diversos proyectos tales como e-commerces, sitios institucionales y landing pages."
           },
         ]
       },
@@ -17,7 +14,7 @@ export const ABOUT_DATA = {
         title: 'Experiencia',
         paragraphs: [
           {
-            text: "Desde el 2021, formo parte del equipo de EstoEs como Desarrollador Front-end, donde tengo las siguientes responsabilidades:"
+            text: "Desde el 2021 formo parte del equipo de EstoEs como Desarrollador Front-end, donde tengo las siguientes responsabilidades:"
           },
           {
             bullets: [
@@ -25,13 +22,13 @@ export const ABOUT_DATA = {
                 text: 'Analizar y estimar tiempos de entrega'
               },
               {
-                text: 'Desarrollar y testear interfaces de usuario'
-              },
-              {
-                text: 'Brindar mantenimiento a proyectos finalizados'
+                text: 'Desarrollar interfaces de usuario'
               },
               {
                 text: 'Colaborar con los equipos de diseño y backend'
+              },
+              {
+                text: 'Brindar mantenimiento a proyectos'
               },
               {
                 text: 'Crear y gestionar tareas en Jira/Asana'
