@@ -4,54 +4,27 @@ export const PROJECTS_DATA = {
     projects: [
       {
         title: "Telecom Institucional",
-        subtitle: "Sitio institucional para Telecom",
+        subtitle: "Sitio institucional",
         description:
-          "Este fue el primer proyecto en el que trabajé de manera profesional. Durante su desarrollo, nos esforzamos por atender las necesidades de la empresa durante su proceso de unificación marcaría, asegurándonos de presentar toda su información de manera completa.",
+          "Este fue el primer proyecto en el que trabajé de manera profesional. Aprendí a trabajar en equipo y a comunicarme de manera eficaz. A nivel técnico, aprendí a usar Redux para manejar los estados. También mejoré muchísimo mi conocimiento de React y SASS. Además, me familiaricé con herramientas de uso diario como Jira, Slack, Asana y Bitbucket.",
         image: "/institucional.png",
         imageAlt: "Screenshot de la pagina Telecom Institucional",
         externalUrl: "https://institucional.telecom.com.ar",
       },
       {
-        title: "Vieníssima",
-        subtitle: "Landing de productos para Mafrig",
-        description:
-          "Relanzamos el sitio con el objetivo de reflejar el nuevo diseño de las salchichas y actualizar el contenido según la ley de sellos. Contiene numerosas transiciones y animaciones que ofrecen una navegación muy fluida y dinámica.",
-        image: "/vienissima.png",
-        imageAlt: "Screenshot de la pagina Vieníssima",
-        externalUrl: "https://www.vienissima.ar/",
-      },
-      {
-        title: "DAP Latam",
-        subtitle: "Landing de productos para RPM",
-        description:
-          "Creamos el sitio con la idea de poder mostrarle a los usuarios una variedad de productos y facilitarles su uso de manera eficiente mediante videotutoriales y tablas comparativas. Además, cuenta con un blog donde se publican guías específicas tanto para productos como para solucionar problemas particulares.",
-        image: "/daplatam.png",
-        imageAlt: "Screenshot de la pagina DAP Latam",
-        externalUrl: "https://dap-latam.com/",
-      },
-      {
-        title: "Mas mecanico",
-        subtitle: "Sitio de e-learning para ZF",
-        description:
-          "Relanzamos el sitio actualizando la tecnología de fondo, pero manteniendo la esencia del diseño original. Cuenta con diversos cursos de mecánica, con la opción de tomar exámenes en línea y recibir un certificado al aprobarlo.",
-        image: "/masmecanico.png",
-        imageAlt: "Screenshot de la pagina Mas Mecanico",
-        externalUrl: "https://masmecanico.com.mx/",
-      },
-      {
         title: "Alleata",
-        subtitle: "Landing del producto para Moretti",
+        subtitle: "Landing de productos",
         description:
-          "Creamos el sitio con el objetivo de dar a conocer la terminal creada por la fintech. Cuenta con secciones que muestran los beneficios de usar el producto, los planes de suscripción disponibles, videotutoriales de cómo usarla y un formulario donde se debe cargar toda la documentación necesaria para adquirir la terminal.",
+          "Para este proyecto, asumí la responsabilidad total del desarrollo. Aprendí a usar Material UI para la creación y el estilado de componentes, Lottie junto a AOS para las animaciones, y Formik con Yup para los formularios y sus validaciones. A nivel profesional, aprendí a dar estimaciones sobre cuánto tiempo puede llevar a cabo una tarea y a comunicar avances o trabas en la misma.",
         image: "/alleata.png",
         imageAlt: "Screenshot de la pagina Alleata",
         externalUrl: "https://alleata.estoes.dev/home",
       },
       {
         title: "Personal",
-        subtitle: "Landings de servicios de Personal",
+        subtitle: "Landings de servicios",
         description:
-          "Trabajé con el equipo de Conexión Afuera en Telecom durante 8 meses, centrándonos en la migración a Next.js y renovación del diseño de las siguientes landings:",
+          "Trabajé con el equipo de Conexión Afuera en Telecom durante 8 meses, centrándonos en la migración a Next.js y la renovación del diseño de las siguientes landings:",
         linksArray: [
           {
             text: 'Flow Pass',
@@ -81,6 +54,51 @@ export const PROJECTS_DATA = {
         image: "/paginaspersonal.png",
         imageAlt: "Screenshot de las paginas de Personal",
         externalUrl: "",
+      },
+      {
+        title: "Mas mecanico",
+        subtitle: "Sitio de e-learning",
+        description:
+          "En este proyecto, aprendí a usar el Atomic Design System y la metodología BEM en SASS. También aprendí a usar React Hook Form para la creación de formularios.",
+        image: "/masmecanico.png",
+        imageAlt: "Screenshot de la pagina Mas Mecanico",
+        externalUrl: "https://masmecanico.com.mx/",
+      },
+      {
+        title: "DAP Latam",
+        subtitle: "Landing de productos",
+        description:
+          "En este proyecto, aprendí a usar TypeScript para el tipado de los componentes, Zod para la validación de datos, y Styled Components junto a MUI para el estilado.",
+        image: "/daplatam.png",
+        imageAlt: "Screenshot de la pagina DAP Latam",
+        externalUrl: "https://dap-latam.com/",
+      },
+      {
+        title: "Savencia",
+        subtitle: "E-commerce B2B",
+        description:
+          "En este proyecto, aprendí a trabajar con una plantilla previamente creada para desarrollar diferentes secciones del ecommerce.",
+        image: "/savencia.png",
+        imageAlt: "Screenshot de la pagina Vieníssima",
+        externalUrl: null,
+      },
+      {
+        title: "Vieníssima",
+        subtitle: "Landing de productos",
+        description:
+          "En este proyecto, asumí la responsabilidad del planeamiento y la creación de las tareas en Jira. También creé un sistema de diseño que nos permitió estar más sincronizados con el equipo de diseño al hacer modificaciones, evitando errores de estilo y acelerando los tiempos de desarrollo.",
+        image: "/vienissima.png",
+        imageAlt: "Screenshot de la pagina Vieníssima",
+        externalUrl: "https://www.vienissima.ar/",
+      },
+      {
+        title: "ClubDeCongelados",
+        subtitle: "E-commerce B2C",
+        description:
+          "En este proyecto, aprendí a usar Tailwind para el estilado y a integrar componentes de Shadcn. También aprendí a usar TanStack Query para gestionar la recuperación y el almacenamiento en caché de datos de APIs.",
+        image: "/clubdecongelados.png",
+        imageAlt: "Screenshot de la pagina Vieníssima",
+        externalUrl: "https://www.clubdecongelados.com/",
       },
     ],
   },
