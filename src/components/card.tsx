@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 import CustomLink from "./custom-link";
+import Link from "next/link";
 
 export interface CardTypes {
   image: string;
@@ -23,18 +24,36 @@ const Card = ({
   linksArray,
   techStack
 }: CardTypes) => {
-  console.log(techStack);
+  // console.log(techStack);
+  console.log(externalUrl)
 
   return (
     // Agregar 'shadow' cuando se implemente el light mode
     <div className="rounded-lg overflow-hidden h-full flex flex-col max-w-[396px] justify-self-center border-b border-white bg-white bg-opacity-100 text-black">
       <div className="relative min-h-[200px] w-full">
-        <Image
-          fill
-          src={image}
-          alt={imageAlt}
-          className="object-cover object-top border rounded-t-lg border-b-main-100 border-b-8"
-        />
+        {
+          externalUrl
+            ?
+            (
+              <Link href={externalUrl} rel="noopener noreferrer" target="_blank">
+                <Image
+                  fill
+                  src={image}
+                  alt={imageAlt}
+                  className="object-cover object-top border rounded-t-lg border-b-main-100 border-b-8"
+                />
+              </Link>
+            )
+            :
+            (
+              <Image
+                fill
+                src={image}
+                alt={imageAlt}
+                className="object-cover object-top border rounded-t-lg border-b-main-100 border-b-8"
+              />
+            )
+        }
       </div>
       <div className="p-4 flex flex-col justify-between h-full border-l border-r border-white relative">
         <div className="">
