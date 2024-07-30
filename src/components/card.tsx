@@ -2,17 +2,7 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import CustomLink from "./custom-link";
 import Link from "next/link";
-
-export interface CardTypes {
-  image: string;
-  imageAlt: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  externalUrl: string;
-  linksArray?: any;
-  techStack: any;
-}
+import { CardTypes } from "@/types/card.types";
 
 const Card = ({
   image,
@@ -24,9 +14,6 @@ const Card = ({
   linksArray,
   techStack
 }: CardTypes) => {
-  // console.log(techStack);
-  console.log(externalUrl)
-
   return (
     // Agregar 'shadow' cuando se implemente el light mode
     <div className="rounded-lg overflow-hidden h-full flex flex-col max-w-[396px] justify-self-center border-b border-white bg-white bg-opacity-100 text-black">

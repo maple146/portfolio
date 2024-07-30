@@ -2,14 +2,19 @@ interface techStackTypes {
   text: string;
 }
 
+interface linksArrayTypes {
+  text: string;
+  url: string;
+}
+
 interface ProjectTypes {
-  linksArray?: any;
   image: string;
   imageAlt: string;
   title: string;
   subtitle: string;
   description: string;
-  externalUrl: string;
+  externalUrl: string | null;
+  linksArray?: linksArrayTypes[];
   techStack: techStackTypes[];
 }
 

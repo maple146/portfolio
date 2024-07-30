@@ -1,7 +1,4 @@
-export interface TitleTypes {
-  text: string;
-  variant?: "" | "fullWidth";
-}
+import { TitleTypes } from "@/types/title.types";
 
 const Title = ({ text, variant }: TitleTypes) => {
   // Refactorizar usando class-variance-authority

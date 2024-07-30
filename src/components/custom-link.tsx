@@ -1,21 +1,7 @@
 import { ExternalLinkIcon } from "lucide-react";
 import Link from "next/link";
 import { cva } from "class-variance-authority";
-
-type fontSize = "sm" | "default";
-
-type LinkVariantsProps = {
-  fontSize?: fontSize;
-}
-
-type LinkProps = LinkVariantsProps & {
-  url: string;
-  text: string;
-  customClassNames?: string;
-  [key: string]: any;
-}
-
-type LinkVariantsFunction = (props: LinkVariantsProps) => string;
+import { LinkProps, LinkVariantsFunction } from "@/types/custom-link-types";
 
 const LinkVariants: LinkVariantsFunction = cva(
   "text-main-500 flex items-center hover:underline hover:text-main-700",
