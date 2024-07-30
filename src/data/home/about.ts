@@ -6,7 +6,7 @@ export const ABOUT_DATA = {
         title: 'Quien soy?',
         paragraphs: [
           {
-            text: "Soy un programador autodidacta con más de 3 años de experiencia creando sitios y aplicaciones web en React. Durante este tiempo, participé en el desarrollo de diversos proyectos tales como e-commerces, sitios institucionales y landing pages."
+            text: "Soy un programador con más de 3 años de experiencia creando sitios y aplicaciones web en React. Durante este tiempo, participé en el desarrollo de diversos proyectos tales como e-commerces, sitios institucionales y landing pages."
           },
         ]
       },
@@ -67,4 +67,3 @@ export const ABOUT_DATA = {
     ],
   },
 };
-  
