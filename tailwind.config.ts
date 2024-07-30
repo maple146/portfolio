@@ -31,6 +31,8 @@ const config = {
     },
     extend: {
       fontSize: {
+        xxxs: ["12px", "13px"],
+        xxs: ["14px", "15px"],
         xs: ["16px", "20px"],
         sm: ["18px", "24px"],
         base: ["20px", "28px"],

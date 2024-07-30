@@ -66,21 +66,27 @@ const Card = ({
             )
           }
         </div>
-        {externalUrl && (
-          <div className="flex mt-4 text-white">
-            <Button
-              href={externalUrl}
-            >
-              Ver sitio
-            </Button>
-          </div>
-        )}
+        {
+          !linksArray && (
+            <div className="flex mt-4 text-white">
+              <Button
+                href={externalUrl}
+                disabled={externalUrl === ""}
+              >
+                {externalUrl ? 'Ver sitio' : 'Sitio privado'}
+              </Button>
+            </div>
+          )
+        }
         {
           techStack && (
-            <div className="flex absolute bottom-4 right-4 gap-1">
+            <div className="flex flex-col absolute bottom-4 right-4 gap-0.5">
               {
                 techStack.map((tech: any) => (
-                  <div key={tech.text} className="bg-main-900 w-auto text-white px-2 select-none rounded-sm">
+                  <div
+                    key={tech.text}
+                    className="bg-main-900 w-[90px] text-white px-2 py-0.5 select-none text-xxxs md:text-xxs rounded-sm text-center"
+                  >
                     {tech.text}
                   </div>
                 ))

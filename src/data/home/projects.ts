@@ -120,7 +120,7 @@ export const PROJECTS_DATA = {
           "En este proyecto, aprendí a trabajar con una plantilla previamente creada para desarrollar diferentes secciones del ecommerce.",
         image: "/savencia.png",
         imageAlt: "Screenshot de la pagina Vieníssima",
-        externalUrl: null,
+        externalUrl: "",
         techStack: [
           {
             text: 'Next.js'

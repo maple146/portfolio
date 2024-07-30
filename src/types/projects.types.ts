@@ -13,7 +13,7 @@ interface ProjectTypes {
   title: string;
   subtitle: string;
   description: string;
-  externalUrl: string | null;
+  externalUrl: string;
   linksArray?: linksArrayTypes[];
   techStack: techStackTypes[];
 }
