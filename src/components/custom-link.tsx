@@ -18,7 +18,7 @@ type LinkProps = LinkVariantsProps & {
 type LinkVariantsFunction = (props: LinkVariantsProps) => string;
 
 const LinkVariants: LinkVariantsFunction = cva(
-  "text-main-100 flex items-center hover:underline",
+  "text-main-500 flex items-center hover:underline hover:text-main-700",
   {
     variants: {
       fontSize: {

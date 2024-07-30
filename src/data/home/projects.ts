@@ -10,6 +10,14 @@ export const PROJECTS_DATA = {
         image: "/institucional.png",
         imageAlt: "Screenshot de la pagina Telecom Institucional",
         externalUrl: "https://institucional.telecom.com.ar",
+        techStack: [
+          {
+            text: 'Next.js'
+          },
+          {
+            text: 'SASS'
+          }
+        ]
       },
       {
         title: "Alleata",
@@ -19,6 +27,14 @@ export const PROJECTS_DATA = {
         image: "/alleata.png",
         imageAlt: "Screenshot de la pagina Alleata",
         externalUrl: "https://alleata.estoes.dev/home",
+        techStack: [
+          {
+            text: 'Next.js'
+          },
+          {
+            text: 'Material-UI'
+          }
+        ]
       },
       {
         title: "Personal",
@@ -54,24 +70,48 @@ export const PROJECTS_DATA = {
         image: "/paginaspersonal.png",
         imageAlt: "Screenshot de las paginas de Personal",
         externalUrl: "",
+        techStack: [
+          {
+            text: 'Next.js'
+          },
+          {
+            text: 'SASS'
+          }
+        ]
       },
       {
         title: "Mas mecanico",
         subtitle: "Sitio de e-learning",
         description:
-          "En este proyecto, aprendí a usar el Atomic Design System y la metodología BEM en SASS. También aprendí a usar React Hook Form para la creación de formularios.",
+          "En este proyecto, aprendí a usar el Atomic Design System y la metodología BEM en el estilado con SASS a los componentes de Material-UI. También aprendí a usar React Hook Form para la creación de formularios.",
         image: "/masmecanico.png",
         imageAlt: "Screenshot de la pagina Mas Mecanico",
         externalUrl: "https://masmecanico.com.mx/",
+        techStack: [
+          {
+            text: 'Next.js'
+          },
+          {
+            text: 'Material-UI'
+          }
+        ]
       },
       {
         title: "DAP Latam",
         subtitle: "Landing de productos",
         description:
-          "En este proyecto, aprendí a usar TypeScript para el tipado de los componentes, Zod para la validación de datos, y Styled Components junto a MUI para el estilado.",
+          "En este proyecto, aprendí a usar TypeScript para el tipado de los componentes, Zod para la validación de datos, y Styled Components para el estilado de componentes de Material-UI.",
         image: "/daplatam.png",
         imageAlt: "Screenshot de la pagina DAP Latam",
         externalUrl: "https://dap-latam.com/",
+        techStack: [
+          {
+            text: 'Next.js'
+          },
+          {
+            text: 'Material-UI'
+          }
+        ]
       },
       {
         title: "Savencia",
@@ -81,6 +121,14 @@ export const PROJECTS_DATA = {
         image: "/savencia.png",
         imageAlt: "Screenshot de la pagina Vieníssima",
         externalUrl: null,
+        techStack: [
+          {
+            text: 'Next.js'
+          },
+          {
+            text: 'Material-UI'
+          }
+        ]
       },
       {
         title: "Vieníssima",
@@ -90,6 +138,14 @@ export const PROJECTS_DATA = {
         image: "/vienissima.png",
         imageAlt: "Screenshot de la pagina Vieníssima",
         externalUrl: "https://www.vienissima.ar/",
+        techStack: [
+          {
+            text: 'Next.js'
+          },
+          {
+            text: 'Material-UI'
+          }
+        ]
       },
       {
         title: "ClubDeCongelados",
@@ -99,6 +155,14 @@ export const PROJECTS_DATA = {
         image: "/clubdecongelados.png",
         imageAlt: "Screenshot de la pagina Vieníssima",
         externalUrl: "https://www.clubdecongelados.com/",
+        techStack: [
+          {
+            text: 'Next.js'
+          },
+          {
+            text: 'Tailwind'
+          }
+        ]
       },
     ],
   },

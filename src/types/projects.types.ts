@@ -1,3 +1,7 @@
+interface techStackTypes {
+  text: string;
+}
+
 interface ProjectTypes {
   linksArray?: any;
   image: string;
@@ -6,6 +10,7 @@ interface ProjectTypes {
   subtitle: string;
   description: string;
   externalUrl: string;
+  techStack: techStackTypes[];
 }
 
 export interface ProjectsTypes {

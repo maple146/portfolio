@@ -10,6 +10,7 @@ export interface CardTypes {
   description: string;
   externalUrl: string;
   linksArray?: any;
+  techStack: any;
 }
 
 const Card = ({
@@ -20,26 +21,27 @@ const Card = ({
   description,
   externalUrl,
   linksArray,
+  techStack
 }: CardTypes) => {
-  console.log(linksArray);
+  console.log(techStack);
 
   return (
     // Agregar 'shadow' cuando se implemente el light mode
-    <div className="rounded-lg overflow-hidden h-full flex flex-col max-w-[396px] justify-self-center border-b border-white">
+    <div className="rounded-lg overflow-hidden h-full flex flex-col max-w-[396px] justify-self-center border-b border-white bg-white bg-opacity-100 text-black">
       <div className="relative min-h-[200px] w-full">
         <Image
           fill
           src={image}
           alt={imageAlt}
-          className="object-cover object-top"
+          className="object-cover object-top border rounded-t-lg border-b-main-100 border-b-8"
         />
       </div>
-      <div className="p-4 flex flex-col justify-between h-full border-l border-r border-white">
+      <div className="p-4 flex flex-col justify-between h-full border-l border-r border-white relative">
         <div className="">
-          <h5 className="text-lg font-bold text-white">{title}</h5>
-          <h6 className="text-sm font-bold text-white">{subtitle}</h6>
-          <hr className="my-2"></hr>
-          <p className="text-sm font-normal text-white">{description}</p>
+          <h5 className="text-lg font-bold text-main-700">{title}</h5>
+          <h6 className="text-sm font-bold text-main-900">{subtitle}</h6>
+          <hr className="mt-2 mb-4"></hr>
+          <p className="text-sm font-normal">{description}</p>
           {
             linksArray && (
               <div className="mt-2">
@@ -59,7 +61,7 @@ const Card = ({
           }
         </div>
         {externalUrl && (
-          <div className="flex gap-4 mt-4">
+          <div className="flex mt-4 text-white">
             <Button
               href={externalUrl}
             >
@@ -67,6 +69,19 @@ const Card = ({
             </Button>
           </div>
         )}
+        {
+          techStack && (
+            <div className="flex absolute bottom-4 right-4 gap-1">
+              {
+                techStack.map((tech: any) => (
+                  <div key={tech.text} className="bg-main-900 w-auto text-white px-2 select-none rounded-sm">
+                    {tech.text}
+                  </div>
+                ))
+              }
+            </div>
+          )
+        }
       </div>
     </div>
   );

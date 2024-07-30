@@ -23,6 +23,7 @@ export default function Projects({
             imageAlt={project.imageAlt}
             externalUrl={project.externalUrl}
             linksArray={project.linksArray}
+            techStack={project.techStack}
           />
         ))}
       </div>
