@@ -8,6 +8,7 @@ import { PROJECTS_DATA } from "@/data/home/projects";
 import { CONTACT_DATA } from "@/data/home/contact";
 
 export default function Home() {
+  console.log('testing build')
   return (
     <main className="flex flex-col">
       <Header {...HEADER_DATA.home} />
