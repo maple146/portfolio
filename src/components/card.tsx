@@ -57,8 +57,7 @@ const Card = ({
             linksArray && (
               <div className="mt-2">
                 <ul className="list-disc list-inside">
-                  {/* Quitar el any mas adelante */}
-                  {linksArray?.map((link: any) => (
+                  {linksArray?.map((link) => (
                     <CustomLink
                       key={link.text}
                       url={link.url}
@@ -87,7 +86,7 @@ const Card = ({
           techStack && (
             <div className="flex flex-col absolute bottom-4 right-4 gap-0.5">
               {
-                techStack.map((tech: any) => (
+                techStack.map((tech) => (
                   <div
                     key={tech.text}
                     className="bg-main-900 w-[90px] text-white px-2 py-0.5 select-none text-xxxs md:text-xxs rounded-sm text-center"

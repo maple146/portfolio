@@ -10,15 +10,15 @@ export default function About({ title, sections }: AboutTypes) {
       </div>
       {
         sections.map((section) => (
-          <div className="flex flex-col" key={section.title}>
+          <div key={section.title} className="flex flex-col">
             <Title text={section.title} variant={"fullWidth"} />
             <div className='flex flex-col gap-4'>
               {
-                section?.paragraphs?.map((paragraph => (
+                section?.paragraphs?.map(paragraph => (
                   <p key={paragraph.text} className="text-base lg:text-lg">
                     {paragraph.text}
                   </p>
-                )))
+                ))
               }
             </div>
             <ul className="list-disc list-inside text-sm leading-6 lg:text-base lg:leading-8">
@@ -32,7 +32,7 @@ export default function About({ title, sections }: AboutTypes) {
             </ul>
             <div className='flex flex-col gap-2' >
               {
-                section?.paragraphs?.map((paragraph => (
+                section?.paragraphs?.map(paragraph => (
                   paragraph?.links?.map(link => (
                     <CustomLink
                       key={link.text}
@@ -40,7 +40,7 @@ export default function About({ title, sections }: AboutTypes) {
                       text={link.text}
                     />
                   ))
-                )))
+                ))
               }
             </div>
           </div>
