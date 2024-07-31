@@ -1,0 +1,260 @@
+{
+    "page": {
+        "title": "Portfolio",
+        "desc": "Personal portfolio"
+    },
+    "header": {
+        "title": "Luciano Alcaraz",
+        "subtitle": "Front-end Developer",
+        "buttons": [
+            {
+                "buttonText": "Github",
+                "externalUrl": "https://github.com/maple146"
+            },
+            {
+                "buttonText": "Linkedin",
+                "externalUrl": "https://www.linkedin.com/in/lucianoalcaraz/"
+            }
+        ]
+    },
+    "about": {
+        "title": "About me",
+        "sections": [
+            {
+                "title": "Who am I?",
+                "paragraphs": [
+                    {
+                        "text": "I am a programmer with over 3 years of experience creating websites and web applications using React. During this time, I have worked on various projects, including e-commerce sites, institutional websites, and landing pages."
+                    }
+                ]
+            },
+            {
+                "title": "My experience",
+                "paragraphs": [
+                    {
+                        "text": "Since 2021, I have been part of the EstoEs team as a Front-end Developer, where I have the following responsibilities:"
+                    },
+                    {
+                        "bullets": [
+                            {
+                                "text": "Analyzing and estimating delivery times"
+                            },
+                            {
+                                "text": "Developing user interfaces"
+                            },
+                            {
+                                "text": "Collaborating with the design and backend teams"
+                            },
+                            {
+                                "text": "Providing maintenance to projects"
+                            },
+                            {
+                                "text": "Creating and managing tasks in Jira and Asana"
+                            },
+                            {
+                                "text": "Reviewing and correcting Pull Requests"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "What tools do I use?",
+                "paragraphs": [
+                    {
+                        "text": "My technology stack includes:"
+                    },
+                    {
+                        "bullets": [
+                            {
+                                "text": "HTML, CSS, Javascript, Responsive Design"
+                            },
+                            {
+                                "text": "SASS, Bootstrap, Material-UI, TailwindCSS"
+                            },
+                            {
+                                "text": "React.js, Next.js, Typescript"
+                            },
+                            {
+                                "text": "React Testing Library, Jest"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "projects": [
+            {
+                "title": "Telecom Institucional",
+                "subtitle": "Corporate site",
+                "description": "This was the first project I worked on professionally, where I learned to collaborate effectively in a team and communicate efficiently. On a technical level, I learned to use Redux for state management. I also greatly improved my knowledge of React and SASS. Additionally, I became familiar with everyday tools such as Jira, Slack, Asana, and Bitbucket.",
+                "image": "/institucional.png",
+                "imageAlt": "Screenshot of the Institutional Telecom website",
+                "externalUrl": "https://institucional.telecom.com.ar",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "SASS"
+                    }
+                ]
+            },
+            {
+                "title": "Alleata",
+                "subtitle": "Product landing",
+                "description": "For this project, I took full responsibility for the development. I learned to use Material UI for component creation and styling, Lottie with AOS for animations, and Formik with Yup for form handling and validation. Professionally, I learned to provide time estimates for tasks and to communicate progress and potential bottlenecks effectively.",
+                "image": "/alleata.png",
+                "imageAlt": "Screenshot of the Alleata website",
+                "externalUrl": "https://alleata.estoes.dev/home",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "Material-UI"
+                    }
+                ]
+            },
+            {
+                "title": "Personal",
+                "subtitle": "Service landings",
+                "description": "I worked with the Conexión Afuera team at Telecom for 8 months, focusing on the migration to Next.js and the redesign of the following landing pages:",
+                "linksArray": [
+                    {
+                        "text": "Flow Pass",
+                        "url": "https://www.personal.com.ar/flow-pass"
+                    },
+                    {
+                        "text": "Planes",
+                        "url": "https://www.personal.com.ar/planes-internet-movil"
+                    },
+                    {
+                        "text": "Portabilidad",
+                        "url": "https://www.personal.com.ar/portabilidad"
+                    },
+                    {
+                        "text": "Prepago",
+                        "url": "https://www.personal.com.ar/prepago"
+                    },
+                    {
+                        "text": "Wifi Pass",
+                        "url": "https://www.personal.com.ar/wifi-pass"
+                    },
+                    {
+                        "text": "Ofertas",
+                        "url": "https://www.personal.com.ar/ofertas"
+                    }
+                ],
+                "image": "/paginaspersonal.png",
+                "imageAlt": "Screenshot of Personal websites",
+                "externalUrl": "",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "SASS"
+                    }
+                ]
+            },
+            {
+                "title": "Mas mecanico",
+                "subtitle": "E-learning site",
+                "description": "In this project, I learned to use the Atomic Design System and BEM methodology for SASS styling of Material-UI components. I also became proficient with React Hook Form for form creation.",
+                "image": "/masmecanico.png",
+                "imageAlt": "Screenshot of the Mas Mecanico website",
+                "externalUrl": "https://masmecanico.com.mx/",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "Material-UI"
+                    }
+                ]
+            },
+            {
+                "title": "DAP Latam",
+                "subtitle": "Product landing",
+                "description": "In this project, I gained experience with TypeScript, Zod for data validation, and Styled Components for styling Material-UI components.",
+                "image": "/daplatam.png",
+                "imageAlt": "Screenshot of the DAP Latam website",
+                "externalUrl": "https://dap-latam.com/",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "Material-UI"
+                    }
+                ]
+            },
+            {
+                "title": "Savencia",
+                "subtitle": "E-commerce B2B",
+                "description": "In this project, I worked with a pre-existing template to develop various sections of the e-commerce site.",
+                "image": "/savencia.png",
+                "imageAlt": "Screenshot of the Vieníssima website",
+                "externalUrl": "",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "Material-UI"
+                    }
+                ]
+            },
+            {
+                "title": "Vieníssima",
+                "subtitle": "Product landing",
+                "description": "For this project, I was responsible for planning and creating tasks in Jira. Additionally, I developed a design system that enhanced synchronization with the design team, reduced styling errors, and accelerated development timelines.",
+                "image": "/vienissima.png",
+                "imageAlt": "Screenshot of the Vieníssima website",
+                "externalUrl": "https://www.vienissima.ar/",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "Material-UI"
+                    }
+                ]
+            },
+            {
+                "title": "ClubDeCongelados",
+                "subtitle": "E-commerce B2C",
+                "description": "In this project, I learned to use Tailwind for styling and to integrate Shadcn components. I also gained experience with TanStack Query for managing API data fetching and caching.",
+                "image": "/clubdecongelados.png",
+                "imageAlt": "Screenshot of ClubDeCongelados website",
+                "externalUrl": "https://www.clubdecongelados.com/",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "Tailwind"
+                    }
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "text": "If you believe I would be a good fit for your team or if you'd like to discuss a specific project, please feel free to email me or connect with me on LinkedIn.",
+        "buttons": [
+            {
+                "buttonText": "Email",
+                "externalUrl": "mailto:LGA-dev@hotmail.com"
+            },
+            {
+                "buttonText": "Linkedin",
+                "externalUrl": "https://www.linkedin.com/in/lucianoalcaraz/"
+            }
+        ]
+    }
+}

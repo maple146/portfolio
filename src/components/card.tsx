@@ -15,33 +15,38 @@ const Card = ({
   techStack
 }: CardTypes) => {
   return (
-    // Agregar 'shadow' cuando se implemente el light mode
     <div className="rounded-lg overflow-hidden h-full flex flex-col max-w-[396px] justify-self-center border-b border-white bg-white bg-opacity-100 text-black">
-      <div className="relative min-h-[200px] w-full">
+      <>
         {
           externalUrl
             ?
             (
               <Link href={externalUrl} rel="noopener noreferrer" target="_blank">
-                <Image
-                  fill
-                  src={image}
-                  alt={imageAlt}
-                  className="object-cover object-top border rounded-t-lg border-b-main-100 border-b-8"
-                />
+                <div className="relative min-h-[200px]">
+                  <Image
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    src={image}
+                    alt={imageAlt}
+                    className="object-cover object-top border rounded-t-lg border-b-main-100 border-b-8"
+                  />
+                </div>
               </Link>
             )
             :
             (
-              <Image
-                fill
-                src={image}
-                alt={imageAlt}
-                className="object-cover object-top border rounded-t-lg border-b-main-100 border-b-8"
-              />
+              <div className="relative min-h-[200px]">
+                <Image
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  src={image}
+                  alt={imageAlt}
+                  className="object-cover object-top border rounded-t-lg border-b-main-100 border-b-8"
+                />
+              </div>
             )
         }
-      </div>
+      </>
       <div className="p-4 flex flex-col justify-between h-full border-l border-r border-white relative">
         <div className="">
           <h5 className="text-lg font-bold text-main-700">{title}</h5>
