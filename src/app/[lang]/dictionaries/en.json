@@ -22,64 +22,28 @@
         "sections": [
             {
                 "title": "Who am I?",
-                "paragraphs": [
-                    {
-                        "text": "I am a programmer with over 3 years of experience creating websites and web applications using React. During this time, I have worked on various projects, including e-commerce sites, institutional websites, and landing pages."
-                    }
-                ]
+                "paragraph": "I am a programmer with over 3 years of experience creating websites and web applications using React. During this time, I have worked on various projects, including e-commerce sites, institutional websites, and landing pages."
             },
             {
                 "title": "My experience",
-                "paragraphs": [
-                    {
-                        "text": "Since 2021, I have been part of the EstoEs team as a Front-end Developer, where I have the following responsibilities:"
-                    },
-                    {
-                        "bullets": [
-                            {
-                                "text": "Analyzing and estimating delivery times"
-                            },
-                            {
-                                "text": "Developing user interfaces"
-                            },
-                            {
-                                "text": "Collaborating with the design and backend teams"
-                            },
-                            {
-                                "text": "Providing maintenance to projects"
-                            },
-                            {
-                                "text": "Creating and managing tasks in Jira and Asana"
-                            },
-                            {
-                                "text": "Reviewing and correcting Pull Requests"
-                            }
-                        ]
-                    }
+                "paragraph": "Since 2021, I have been part of the EstoEs team as a Front-end Developer, where I have the following responsibilities:",
+                "bullets": [
+                    "Analyzing and estimating delivery times",
+                    "Developing user interfaces",
+                    "Collaborating with the design and backend teams",
+                    "Providing maintenance to projects",
+                    "Creating and managing tasks in Jira and Asana",
+                    "Reviewing and correcting Pull Requests"
                 ]
             },
             {
                 "title": "What tools do I use?",
-                "paragraphs": [
-                    {
-                        "text": "My technology stack includes:"
-                    },
-                    {
-                        "bullets": [
-                            {
-                                "text": "HTML, CSS, Javascript, Responsive Design"
-                            },
-                            {
-                                "text": "SASS, Bootstrap, Material-UI, TailwindCSS"
-                            },
-                            {
-                                "text": "React.js, Next.js, Typescript"
-                            },
-                            {
-                                "text": "React Testing Library, Jest"
-                            }
-                        ]
-                    }
+                "paragraph": "My technology stack includes:",
+                "bullets": [
+                    "HTML, CSS, Javascript, Responsive Design",
+                    "SASS, Bootstrap, Material-UI, TailwindCSS",
+                    "React.js, Next.js, Typescript",
+                    "React Testing Library, Jest"
                 ]
             }
         ]

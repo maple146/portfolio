@@ -1,4 +1,3 @@
-import CustomLink from "@/components/custom-link";
 import Title from "@/components/title";
 import { AboutTypes } from "@/types/about.types";
 
@@ -13,34 +12,19 @@ export default function About({ title, sections }: AboutTypes) {
           <div key={section.title} className="flex flex-col">
             <Title text={section.title} variant={"fullWidth"} />
             <div className='flex flex-col gap-4'>
+              <p className="text-base lg:text-lg">
+                {section.paragraph}
+              </p>
               {
-                section?.paragraphs?.map(paragraph => (
-                  <p key={paragraph.text} className="text-base lg:text-lg">
-                    {paragraph.text}
-                  </p>
-                ))
-              }
-            </div>
-            <ul className="list-disc list-inside text-sm leading-6 lg:text-base lg:leading-8">
-              {
-                section?.paragraphs?.map(paragraph => (
-                  paragraph?.bullets?.map(bullet => (
-                    <li key={bullet.text}>{bullet.text}</li>
-                  ))
-                ))
-              }
-            </ul>
-            <div className='flex flex-col gap-2' >
-              {
-                section?.paragraphs?.map(paragraph => (
-                  paragraph?.links?.map(link => (
-                    <CustomLink
-                      key={link.text}
-                      url={link.externalUrl}
-                      text={link.text}
-                    />
-                  ))
-                ))
+                section.bullets && (
+                  <ul className="list-disc list-inside text-sm leading-6 lg:text-base lg:leading-8">
+                    {
+                      section.bullets.map((bullet) => (
+                        <li key={bullet}>{bullet}</li>
+                      ))
+                    }
+                  </ul>
+                )
               }
             </div>
           </div>
