@@ -52,28 +52,76 @@
         "title": "Proyectos",
         "projects": [
             {
-                "title": "Telecom Institucional",
-                "subtitle": "Sitio corporativo",
-                "description": "Este fue el primer proyecto en el que trabajé de manera profesional, donde aprendí a trabajar en equipo y a comunicarme de manera eficaz. A nivel técnico, aprendí a usar Redux para manejar los estados. También mejoré muchísimo mi conocimiento de React y SASS. Además, me familiaricé con herramientas de uso diario como Jira, Slack, Asana y Bitbucket.",
-                "image": "/institucional.png",
-                "imageAlt": "Screenshot de la pagina Telecom Institucional",
-                "externalUrl": "https://institucional.telecom.com.ar",
+                "title": "ClubDeCongelados",
+                "subtitle": "E-commerce B2C",
+                "description": "En este proyecto, aprendí a utilizar Tailwind para el estilado, Shadcn para crear y modificar componentes predefinidos, y TanStack Query para gestionar la obtención, el almacenamiento en caché y la actualización de datos asíncronos.",
+                "image": "/clubdecongelados.png",
+                "imageAlt": "Screenshot de la pagina ClubDeCongelados",
+                "externalUrl": "https://www.clubdecongelados.com/",
                 "techStack": [
                     {
                         "text": "Next.js"
                     },
                     {
-                        "text": "SASS"
+                        "text": "Tailwind"
                     }
                 ]
             },
             {
-                "title": "Alleata",
+                "title": "Vieníssima",
                 "subtitle": "Landing de productos",
-                "description": "Para este proyecto, asumí la responsabilidad total del desarrollo. Aprendí a usar Material UI para la creación y el estilado de componentes, Lottie junto a AOS para las animaciones, y Formik con Yup para los formularios y sus validaciones. A nivel profesional, aprendí a dar estimaciones sobre cuánto tiempo puede llevar a cabo una tarea y a comunicar avances o trabas en la misma.",
-                "image": "/alleata.png",
-                "imageAlt": "Screenshot de la pagina Alleata",
-                "externalUrl": "https://alleata.estoes.dev/home",
+                "description": "En este proyecto, asumí la responsabilidad del planeamiento y la creación de las tareas en Jira. También creé un sistema de diseño que nos permitió estar más sincronizados con el equipo de diseño al hacer modificaciones, evitando errores de estilo y acelerando los tiempos de desarrollo.",
+                "image": "/vienissima.png",
+                "imageAlt": "Screenshot de la pagina Vieníssima",
+                "externalUrl": "https://www.vienissima.ar/",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "Material-UI"
+                    }
+                ]
+            },
+            {
+                "title": "Savencia",
+                "subtitle": "E-commerce B2B",
+                "description": "En este proyecto, aprendí a trabajar con una plantilla previamente creada para desarrollar diferentes secciones del ecommerce.",
+                "image": "/savencia.png",
+                "imageAlt": "Screenshot de la pagina Vieníssima",
+                "externalUrl": "",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "Material-UI"
+                    }
+                ]
+            },
+            {
+                "title": "DAP Latam",
+                "subtitle": "Landing de productos",
+                "description": "En este proyecto, aprendí a usar TypeScript, Zod para la validación de datos, y Styled Components para el estilado de componentes de Material-UI.",
+                "image": "/daplatam.png",
+                "imageAlt": "Screenshot de la pagina DAP Latam",
+                "externalUrl": "https://dap-latam.com/",
+                "techStack": [
+                    {
+                        "text": "Next.js"
+                    },
+                    {
+                        "text": "Material-UI"
+                    }
+                ]
+            },
+            {
+                "title": "Mas mecanico",
+                "subtitle": "Sitio de e-learning",
+                "description": "En este proyecto, aprendí a usar el Atomic Design System y la metodología BEM en el estilado con SASS a los componentes de Material-UI. También aprendí a usar React Hook Form para la creación de formularios.",
+                "image": "/masmecanico.png",
+                "imageAlt": "Screenshot de la pagina Mas Mecanico",
+                "externalUrl": "https://masmecanico.com.mx/",
                 "techStack": [
                     {
                         "text": "Next.js"
@@ -126,28 +174,12 @@
                 ]
             },
             {
-                "title": "Mas mecanico",
-                "subtitle": "Sitio de e-learning",
-                "description": "En este proyecto, aprendí a usar el Atomic Design System y la metodología BEM en el estilado con SASS a los componentes de Material-UI. También aprendí a usar React Hook Form para la creación de formularios.",
-                "image": "/masmecanico.png",
-                "imageAlt": "Screenshot de la pagina Mas Mecanico",
-                "externalUrl": "https://masmecanico.com.mx/",
-                "techStack": [
-                    {
-                        "text": "Next.js"
-                    },
-                    {
-                        "text": "Material-UI"
-                    }
-                ]
-            },
-            {
-                "title": "DAP Latam",
+                "title": "Alleata",
                 "subtitle": "Landing de productos",
-                "description": "En este proyecto, aprendí a usar TypeScript, Zod para la validación de datos, y Styled Components para el estilado de componentes de Material-UI.",
-                "image": "/daplatam.png",
-                "imageAlt": "Screenshot de la pagina DAP Latam",
-                "externalUrl": "https://dap-latam.com/",
+                "description": "Para este proyecto, asumí la responsabilidad total del desarrollo. Aprendí a usar Material UI para la creación y el estilado de componentes, Lottie junto a AOS para las animaciones, y Formik con Yup para los formularios y sus validaciones. A nivel profesional, aprendí a dar estimaciones sobre cuánto tiempo puede llevar a cabo una tarea y a comunicar avances o trabas en la misma.",
+                "image": "/alleata.png",
+                "imageAlt": "Screenshot de la pagina Alleata",
+                "externalUrl": "https://alleata.estoes.dev/home",
                 "techStack": [
                     {
                         "text": "Next.js"
@@ -158,50 +190,18 @@
                 ]
             },
             {
-                "title": "Savencia",
-                "subtitle": "E-commerce B2B",
-                "description": "En este proyecto, aprendí a trabajar con una plantilla previamente creada para desarrollar diferentes secciones del ecommerce.",
-                "image": "/savencia.png",
-                "imageAlt": "Screenshot de la pagina Vieníssima",
-                "externalUrl": "",
+                "title": "Telecom Institucional",
+                "subtitle": "Sitio corporativo",
+                "description": "Este fue el primer proyecto en el que trabajé de manera profesional, donde aprendí a trabajar en equipo y a comunicarme de manera eficaz. A nivel técnico, aprendí a usar Redux para manejar los estados. También mejoré muchísimo mi conocimiento de React y SASS. Además, me familiaricé con herramientas de uso diario como Jira, Slack, Asana y Bitbucket.",
+                "image": "/institucional.png",
+                "imageAlt": "Screenshot de la pagina Telecom Institucional",
+                "externalUrl": "https://institucional.telecom.com.ar",
                 "techStack": [
                     {
                         "text": "Next.js"
                     },
                     {
-                        "text": "Material-UI"
-                    }
-                ]
-            },
-            {
-                "title": "Vieníssima",
-                "subtitle": "Landing de productos",
-                "description": "En este proyecto, asumí la responsabilidad del planeamiento y la creación de las tareas en Jira. También creé un sistema de diseño que nos permitió estar más sincronizados con el equipo de diseño al hacer modificaciones, evitando errores de estilo y acelerando los tiempos de desarrollo.",
-                "image": "/vienissima.png",
-                "imageAlt": "Screenshot de la pagina Vieníssima",
-                "externalUrl": "https://www.vienissima.ar/",
-                "techStack": [
-                    {
-                        "text": "Next.js"
-                    },
-                    {
-                        "text": "Material-UI"
-                    }
-                ]
-            },
-            {
-                "title": "ClubDeCongelados",
-                "subtitle": "E-commerce B2C",
-                "description": "En este proyecto, aprendí a usar Tailwind para el estilado y a integrar componentes de Shadcn. También aprendí a usar TanStack Query para gestionar la recuperación y el almacenamiento en caché de datos de APIs.",
-                "image": "/clubdecongelados.png",
-                "imageAlt": "Screenshot de la pagina ClubDeCongelados",
-                "externalUrl": "https://www.clubdecongelados.com/",
-                "techStack": [
-                    {
-                        "text": "Next.js"
-                    },
-                    {
-                        "text": "Tailwind"
+                        "text": "SASS"
                     }
                 ]
             }
