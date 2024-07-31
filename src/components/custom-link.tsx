@@ -4,7 +4,7 @@ import { cva } from "class-variance-authority";
 import { LinkProps, LinkVariantsFunction } from "@/types/custom-link-types";
 
 const LinkVariants: LinkVariantsFunction = cva(
-  "text-main-700 flex items-center hover:underline hover:text-main-900",
+  "text-main-700 flex items-center hover:underline hover:text-main-300",
   {
     variants: {
       fontSize: {
