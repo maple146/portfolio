@@ -8,6 +8,8 @@ interface linksArrayTypes {
 }
 
 export interface CardTypes {
+    index: number;
+    showCards: boolean;
     image: string;
     imageAlt: string;
     title: string;

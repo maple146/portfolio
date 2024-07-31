@@ -5,6 +5,8 @@ import Link from "next/link";
 import { CardTypes } from "@/types/card.types";
 
 const Card = ({
+  index,
+  showCards,
   image,
   imageAlt,
   title,
@@ -15,7 +17,7 @@ const Card = ({
   techStack
 }: CardTypes) => {
   return (
-    <div className="rounded-lg overflow-hidden h-full flex flex-col max-w-[396px] justify-self-center border-b border-white bg-white bg-opacity-100 text-black">
+    <div className={`rounded-lg overflow-hidden h-full flex-col max-w-[396px] justify-self-center border-b border-white bg-white bg-opacity-100 text-black ${(index === 0 || index === 1) || showCards === true ? 'flex' : 'hidden'}`}>
       <>
         {
           externalUrl
