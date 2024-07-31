@@ -28,7 +28,9 @@ const Card = ({
   description,
   externalUrl,
   linksArray,
-  techStack
+  techStack,
+  viewSiteButton,
+  privateSiteButton
 }: CardTypes) => {
   return (
     <div
@@ -84,7 +86,7 @@ const Card = ({
                   href={externalUrl}
                   disabled={externalUrl === ""}
                 >
-                  {externalUrl ? 'Ver sitio' : 'Sitio privado'}
+                  {externalUrl ? viewSiteButton : privateSiteButton}
                 </Button>
               </div>
             )

@@ -21,4 +21,7 @@ interface ProjectTypes {
 export interface ProjectsTypes {
   title: string;
   projects: ProjectTypes[];
+  showAllProjectsButton: string;
+  viewSiteButton?: string;
+  privateSiteButton?: string;
 }

@@ -18,4 +18,6 @@ export interface CardTypes {
     externalUrl: string;
     linksArray?: linksArrayTypes[];
     techStack: techStackTypes[];
+    viewSiteButton?: string;
+    privateSiteButton?: string;
 }

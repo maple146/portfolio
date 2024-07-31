@@ -9,6 +9,9 @@ import { useState } from "react";
 export default function Projects({
   title,
   projects,
+  showAllProjectsButton,
+  viewSiteButton,
+  privateSiteButton
 }: ProjectsTypes) {
   const [showCards, setShowCards] = useState(false)
   return (
@@ -21,6 +24,8 @@ export default function Projects({
           <Card
             index={index}
             showCards={showCards}
+            viewSiteButton={viewSiteButton}
+            privateSiteButton={privateSiteButton}
             key={project.title}
             {...project}
           />
@@ -29,7 +34,7 @@ export default function Projects({
           !showCards && (
             <div className="col-span-2">
               <Button onClick={() => setShowCards(true)}>
-                Ver todos los proyectos
+                {showAllProjectsButton}
               </Button>
             </div>
           )

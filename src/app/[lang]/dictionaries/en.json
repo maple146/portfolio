@@ -50,6 +50,9 @@
     },
     "projects": {
         "title": "Projects",
+        "viewSiteButton": "View site",
+        "privateSiteButton": "Private site",
+        "showAllProjectsButton": "Show all projects",
         "projects": [
             {
                 "title": "ClubDeCongelados",
