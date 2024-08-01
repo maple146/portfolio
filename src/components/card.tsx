@@ -16,6 +16,7 @@ const CardImage = ({ image, imageAlt }: { image: string, imageAlt: string }) => 
         src={image}
         alt={imageAlt}
         className="object-cover object-top rounded-t-lg"
+        priority={true}
       />
     </div>
   );
@@ -48,7 +49,6 @@ const Card = ({
         ${(index === 0 || index === 1) || showCards === true ? 'flex' : 'hidden'}
       `}
       style={{
-        transform: isInView ? "hidden" : "translateY(0px)",
         opacity: isInView ? 1 : 0,
         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
       }}
