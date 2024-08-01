@@ -1,3 +1,6 @@
+"use client"
+import { useRef } from "react";
+import { useInView } from "framer-motion";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import CustomLink from "./custom-link";
@@ -32,14 +35,24 @@ const Card = ({
   viewSiteButton,
   privateSiteButton
 }: CardTypes) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
     <div
+      ref={ref}
       className={`
         col-span-2 md:col-span-1
         rounded-lg overflow-hidden h-full flex-col max-w-[396px] justify-self-center bg-[#252525] text-white 
         border-2 border-[rgba(46,187,144,0.3)] bg-gradient-to-t from-[rgba(46,187,144,0.15)] to-[rgba(0,0,0,0.2)]
         ${(index === 0 || index === 1) || showCards === true ? 'flex' : 'hidden'}
-      `}>
+      `}
+      style={{
+        transform: isInView ? "hidden" : "translateY(0px)",
+        opacity: isInView ? 1 : 0,
+        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
+      }}
+    >
       {
         externalUrl
           ?
