@@ -9,10 +9,10 @@ export default function Header({ title, subtitle, buttons }: HeaderTypes) {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section ref={ref} className="h-screen sm:h-auto pb-16 pt-[128px]">
-      <div className="container flex flex-col items-center justify-center h-full text-center">
+    <section ref={ref} className="container mt-16 pt-16 pb-8 md:pt-32 md:pb-16">
+      <div className="flex flex-col items-center justify-center h-full text-center">
         <h1
-          className="text-xl lg:text-xl-4 mb-4 font-bold"
+          className="text-xl md:text-xl-4 mb-4 font-bold"
           style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,
@@ -22,7 +22,7 @@ export default function Header({ title, subtitle, buttons }: HeaderTypes) {
           {title}
         </h1>
         <h2
-          className="text-lg lg:text-xl-3 mb-8 font-semibold"
+          className="text-lg md:text-xl-3 mb-8 font-semibold"
           style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,

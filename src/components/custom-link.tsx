@@ -11,7 +11,7 @@ const LinkVariants: LinkVariantsFunction = cva(
         sm:
           "text-sm",
         default:
-          "text-sm lg:text-base",
+          "text-sm md:text-base",
       },
     },
 

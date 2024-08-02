@@ -6,7 +6,7 @@ import Link from "next/link";
 import { ButtonProps } from "@/types/button.types";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap rounded-lg text-xs lg:text-sm min-w-32 disabled:pointer-events-none disabled:bg-black disabled:bg-opacity-50",
+  "inline-flex items-center justify-center whitespace-nowrap rounded-lg text-xs md:text-sm min-w-32 disabled:pointer-events-none disabled:bg-black disabled:bg-opacity-50",
   {
     variants: {
       variant: {

@@ -10,14 +10,14 @@ export default function Navbar({ lang }: { lang: string }) {
 	return (
 		<nav ref={ref} className="fixed w-full h-16 z-10">
 			<div
-				className="container h-full flex justify-end items-center border-b border-gray-200 bg-black"
+				className="container h-full md:max-w-[828px] flex justify-end items-center border-b border-gray-200 bg-black"
 				style={{
 					transform: isInView ? "none" : "translateX(200px)",
 					opacity: isInView ? 1 : 0,
 					transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s"
 				}}
 			>
-				<div className="flex justify-center w-32">
+				<div className="flex justify-center">
 					<div className="flex items-center justify-center space-x-2">
 						<Link href="/es">
 							<p
