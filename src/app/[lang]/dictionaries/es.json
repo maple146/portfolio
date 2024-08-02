@@ -57,7 +57,7 @@
                     },
                     {
                         "category": "Estilizado",
-                        "items": "TailwindCSS, Shadcn/ui, Material UI, Styled-components, Chakra UI, Bootstrap, Framer Motion"
+                        "items": "TailwindCSS, Shadcn/ui, Material UI, Styled-components, Bootstrap, Framer Motion"
                     },
                     {
                         "category": "Obtención de datos",
