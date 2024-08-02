@@ -57,7 +57,7 @@
                     },
                     {
                         "category": "Estilizado",
-                        "items": "TailwindCSS, Material UI, Styled-components, Chakra-UI, Bootstrap"
+                        "items": "TailwindCSS, Shadcn/ui, Material UI, Styled-components, Chakra UI, Bootstrap, Framer Motion"
                     },
                     {
                         "category": "Obtención de datos",
@@ -81,7 +81,7 @@
                     },
                     {
                         "category": "Idiomas",
-                        "items": "English (C1)"
+                        "items": "Inglés (C1)"
                     }
                 ]
             }

@@ -57,7 +57,7 @@
                     },
                     {
                         "category": "Styling",
-                        "items": "TailwindCSS, Material UI, Styled-components, Chakra-UI, Bootstrap"
+                        "items": "TailwindCSS, Shadcn/ui, Material UI, Styled-components, Chakra UI, Bootstrap, Framer Motion"
                     },
                     {
                         "category": "Data fetching",
@@ -81,7 +81,7 @@
                     },
                     {
                         "category": "Spoken languages",
-                        "items": "English (intermediate), Spanish (native)"
+                        "items": "English (C1), Spanish (native)"
                     }
                 ]
             }
