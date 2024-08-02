@@ -13,6 +13,7 @@ const config = {
   theme: {
     colors: {
       black: '#191919',
+      gray: '#94A3B8',
       white: '#F6F6F6',
       main: {
         100: '#6bdbba',

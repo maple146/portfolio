@@ -38,12 +38,51 @@
             },
             {
                 "title": "Que herramientas uso?",
-                "paragraph": "Mi stack tecnológico se compone de:",
-                "bullets": [
-                    "HTML, CSS, Javascript, Responsive Design",
-                    "SASS, Bootstrap, Material-UI, TailwindCSS",
-                    "React.js, Next.js, Typescript",
-                    "React Testing Library, Jest"
+                "skills": [
+                    {
+                        "category": "Lenguajes",
+                        "items": "HTML, CSS, JavaScript (ES6), TypeScript"
+                    },
+                    {
+                        "category": "Frameworks",
+                        "items": "React.js, Next.js"
+                    },
+                    {
+                        "category": "Manejo de estado",
+                        "items": "Context API, Redux"
+                    },
+                    {
+                        "category": "Preprocesadores CSS",
+                        "items": "Sass, LESS"
+                    },
+                    {
+                        "category": "Estilizado",
+                        "items": "TailwindCSS, Material UI, Styled-components, Chakra-UI, Bootstrap"
+                    },
+                    {
+                        "category": "Obtención de datos",
+                        "items": "Axios, Redux Toolkit Query, TanStack Query"
+                    },
+                    {
+                        "category": "Testing",
+                        "items": "Jest, React Testing Library"
+                    },
+                    {
+                        "category": "Herramientas",
+                        "items": "NPM, Yarn, Git, GitHub, GitLab, Bitbucket"
+                    },
+                    {
+                        "category": "Gestión de proyectos",
+                        "items": "Jira, Asana, Trello, Slack"
+                    },
+                    {
+                        "category": "Herramientas de diseño",
+                        "items": "Figma, Adobe Photoshop"
+                    },
+                    {
+                        "category": "Idiomas",
+                        "items": "English (C1)"
+                    }
                 ]
             }
         ]

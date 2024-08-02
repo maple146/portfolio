@@ -38,12 +38,51 @@
             },
             {
                 "title": "What tools do I use?",
-                "paragraph": "My technology stack includes:",
-                "bullets": [
-                    "HTML, CSS, Javascript, Responsive Design",
-                    "SASS, Bootstrap, Material-UI, TailwindCSS",
-                    "React.js, Next.js, Typescript",
-                    "React Testing Library, Jest"
+                "skills": [
+                    {
+                        "category": "Languages",
+                        "items": "HTML, CSS, JavaScript (ES6), TypeScript"
+                    },
+                    {
+                        "category": "Frameworks",
+                        "items": "React.js, Next.js"
+                    },
+                    {
+                        "category": "State management",
+                        "items": "Context API, Redux"
+                    },
+                    {
+                        "category": "CSS preprocessors",
+                        "items": "Sass, LESS"
+                    },
+                    {
+                        "category": "Styling",
+                        "items": "TailwindCSS, Material UI, Styled-components, Chakra-UI, Bootstrap"
+                    },
+                    {
+                        "category": "Data fetching",
+                        "items": "Axios, Redux Toolkit Query, TanStack Query"
+                    },
+                    {
+                        "category": "Testing",
+                        "items": "Jest, React Testing Library"
+                    },
+                    {
+                        "category": "Tooling",
+                        "items": "NPM, Yarn, Git, GitHub, GitLab, Bitbucket"
+                    },
+                    {
+                        "category": "Project management",
+                        "items": "Jira, Asana, Trello, Slack"
+                    },
+                    {
+                        "category": "Design tools",
+                        "items": "Figma, Adobe Photoshop"
+                    },
+                    {
+                        "category": "Spoken languages",
+                        "items": "English (intermediate), Spanish (native)"
+                    }
                 ]
             }
         ]
